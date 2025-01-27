@@ -4,7 +4,7 @@ const Find = () => {
         <div className='bg-[#283462] py-20 border-y-2 border-[#bcbcbc]'>
             <div className="max-w-7xl mx-auto">
                 <div className="text-center">
-                    <h2 className='text-white font-bold text-[50px]'>
+                    <h2 className='text-white font-bold text-[40px] md:text-[50px]'>
                         Begin Your Personalized Colour Analysis
                     </h2>
                     <p className="text-white text-lg mt-3 mb-6">

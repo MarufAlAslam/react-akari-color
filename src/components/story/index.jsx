@@ -29,7 +29,7 @@ const Story = () => {
         <div className='py-20 story'>
             <div className="max-w-7xl mx-auto">
                 <div className="text-center">
-                    <h2 className='text-white font-bold text-[50px]'>
+                    <h2 className='text-white font-bold text-[40px] md:text-[50px]'>
                         Our Story Empowering You with Confidence!
                     </h2>
                     <p className="text-white text-lg mt-3 mb-6">

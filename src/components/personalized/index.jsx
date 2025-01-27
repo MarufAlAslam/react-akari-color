@@ -6,9 +6,9 @@ const Personalized = () => {
     return (
         <div className='personalized py-14'>
             <div className="max-w-7xl mx-auto">
-                <div className="flex justify-between items-center">
-                    <div className="left lg:w-7/12 w-full">
-                        <h1 className='text-white font-bold text-[50px] lh-50'>
+                <div className="flex lg:flex-row flex-col gap-8 justify-between items-center">
+                    <div className="left lg:w-7/12 w-full md:text-start text-center">
+                        <h1 className='text-white font-bold md:text-[50px] md:lh-50 text-[40px]'>
                             Your Personalized Color Analysis Awaits!
                         </h1>
                         <p className="text-white text-lg mt-4 mb-8">

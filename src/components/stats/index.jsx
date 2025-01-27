@@ -31,7 +31,7 @@ const Stats = () => {
                                     </div>
                                     <div className="line h-[70px] w-[4px] bg-white"></div>
                                     <div className="content">
-                                        <h3 className='text-white font-bold text-2xl mb-1'>
+                                        <h3 className='text-white font-bold text-lg md:text-2xl mb-1'>
                                             {stat.title}
                                         </h3>
                                         <p className="text-white text-sm ">
