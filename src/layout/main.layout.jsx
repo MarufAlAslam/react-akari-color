@@ -1,11 +1,12 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
+import Footer from '../components/footer'
 
 const Layout = () => {
     return (
         <div>
             <Outlet />
-            <div className="">Footer</div>
+            <Footer />
         </div>
     )
 }
