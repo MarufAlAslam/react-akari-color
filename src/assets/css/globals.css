@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    font-family: "Inter", serif;
+}
+
+body {
+    background-color: #1A2E4F;
+}
+
+.lh-50 {
+    line-height: 60px;
+}
+
+.bg-glass {
+    background: linear-gradient(90deg, #5a7389, #51a8b3);
+    border-radius: 12px;
+}
+
+.gradient-border {
+    background: linear-gradient(90deg, #1A2E4F, #ffffff);
+    padding: 1px;
+    border-radius: 12px;
+}
