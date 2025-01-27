@@ -2,6 +2,8 @@ import React from 'react'
 import Header from '../../components/header'
 import Stats from '../../components/stats'
 import Personalized from '../../components/personalized'
+import Find from '../../components/find'
+import Story from '../../components/story'
 
 const Homepage = () => {
     return (
@@ -9,6 +11,8 @@ const Homepage = () => {
             <Header />
             <Stats />
             <Personalized />
+            <Find />
+            <Story />
         </main>
     )
 }

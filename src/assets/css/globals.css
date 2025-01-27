@@ -22,3 +22,7 @@ body {
     padding: 1px;
     border-radius: 12px;
 }
+
+.story-item {
+    background: linear-gradient(90deg, #1a3a5c, #322961);
+}
