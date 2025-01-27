@@ -1,4 +1,5 @@
 import React from 'react'
+import GradButton from '../grad-button'
 const Find = () => {
     return (
         <div className='bg-[#283462] py-20 border-y-2 border-[#bcbcbc]'>
@@ -15,9 +16,7 @@ const Find = () => {
                 <form acation="" className='lg:w-2/3 mx-auto'>
                     <input type="text" className='bg-white w-full p-3 rounded-lg' placeholder='Enter the Amazon order ID' name="" id="" />
                     <div className="text-center mt-6">
-                        <button className='bg-gradient-to-r from-[#00FFFF] to-[#FF00FF] text-white font-normal py-4 px-14 rounded-full inline-flex'>
-                            Go for Analysis
-                        </button>
+                        <GradButton text='Go for Analysis' link={"/upload"} />
                     </div>
                 </form>
             </div>

@@ -47,7 +47,7 @@ const Banner = () => {
                         <p className="text-white text-lg mt-4 mb-8 md:text-left text-center">
                             Unlock the full potential of your face colour analysis product. Validate your Amazon purchase, upload your photo, and receive personalized results to enhance your beauty and style.
                         </p>
-                        <GradButton text='Start Your Analysis' link={"/"} />
+                        <GradButton text='Start Your Analysis' link={"/upload"} />
                     </div>
                     <div className="item">
                         <img src={robotImg} alt="" />

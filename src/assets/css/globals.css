@@ -27,6 +27,25 @@ body {
     background: linear-gradient(90deg, #1a3a5c, #322961);
 }
 
+.menu a.active {
+    color: #5CF4FF;
+    font-weight: bold;
+}
+
+.nav-holder {
+    transition: 0.4s;
+}
+
+.nav-holder.floating {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    background: #1B2E4E;
+    border-bottom: 1px solid white;
+    transition: 0.4s;
+}
+
 @media screen and (max-width: 768px) {
     .max-w-7xl {
         padding: 0 20px;
@@ -64,5 +83,16 @@ body {
 
     .max-w-7xl.mx-auto.px-3.py-24 {
         padding: 40px 20px;
+    }
+
+    .nav-holder.floating {
+        position: fixed;
+        width: 100%;
+        z-index: 1000;
+        top: 0;
+        background: #1B2E4E;
+        border-bottom: 1px solid white;
+        transition: 0.4s;
+        padding: 20px 0;
     }
 }
