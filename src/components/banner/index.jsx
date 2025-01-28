@@ -38,7 +38,7 @@ const Banner = () => {
     ]
     return (
         <>
-            <div className="max-w-7xl mx-auto px-3 py-24">
+            <div className="max-w-7xl mx-auto px-3 py-24" id='home'>
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 items-center grid-cols-1 gap-5">
                     <div className="item md:text-left text-center">
                         <h1 className='text-white font-bold text-[40px] md:text-[50px] md:lh-50 lh-40 md:text-left text-center'>
@@ -47,7 +47,7 @@ const Banner = () => {
                         <p className="text-white text-lg mt-4 mb-8 md:text-left text-center">
                             Unlock the full potential of your face colour analysis product. Validate your Amazon purchase, upload your photo, and receive personalized results to enhance your beauty and style.
                         </p>
-                        <GradButton text='Start Your Analysis' link={"/upload"} />
+                        <GradButton text='Start Your Analysis' link={"/#begin"} />
                     </div>
                     <div className="item">
                         <img src={robotImg} alt="" />

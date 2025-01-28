@@ -4,7 +4,7 @@ import groupImg from '../../assets/img/group.svg'
 
 const Personalized = () => {
     return (
-        <div className='personalized py-14'>
+        <div className='personalized py-14' id='buy'>
             <div className="max-w-7xl mx-auto">
                 <div className="flex lg:flex-row flex-col gap-8 justify-between items-center">
                     <div className="left lg:w-7/12 w-full md:text-start text-center">
@@ -14,7 +14,7 @@ const Personalized = () => {
                         <p className="text-white text-lg mt-4 mb-8">
                             Experience the power of AI to uncover your unique color palette. Shop now and begin your journey to discovering your best shades!
                         </p>
-                        <GradButton text='Buy Now on Amazon' link={"/"} />
+                        <GradButton text='Buy Now on Amazon' link={"https://www.amazon.com/"} />
                     </div>
                     <div className="right lg:w-4/12 w-full">
                         <img src={groupImg} className='w-full' alt="" />

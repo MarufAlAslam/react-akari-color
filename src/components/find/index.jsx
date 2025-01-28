@@ -2,7 +2,7 @@ import React from 'react'
 import GradButton from '../grad-button'
 const Find = () => {
     return (
-        <div className='bg-[#283462] py-20 border-y-2 border-[#bcbcbc]'>
+        <div className='bg-[#283462] py-20 border-y-2 border-[#bcbcbc]' id='begin'>
             <div className="max-w-7xl mx-auto">
                 <div className="text-center">
                     <h2 className='text-white font-bold text-[40px] md:text-[50px]'>
