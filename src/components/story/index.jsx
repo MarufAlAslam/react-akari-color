@@ -26,7 +26,7 @@ const Story = () => {
         }
     ]
     return (
-        <div className='py-20 story' id='about'>
+        <div className='py-52 story' id='about'>
             <div className="max-w-7xl mx-auto">
                 <div className="text-center">
                     <h2 className='text-white font-bold text-[40px] md:text-[50px]'>
